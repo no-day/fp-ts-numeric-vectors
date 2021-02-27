@@ -1,6 +1,6 @@
 # ts-numeric-vectors
 
-Immutable, functional numeric vectors.
+Immutable numeric vectors.
 
 ## Install
 
