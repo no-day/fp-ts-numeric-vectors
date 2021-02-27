@@ -39,8 +39,8 @@ export const vec3n = (x1: number, x2: number, x3: number): Vec3n => [
  */
 export const add = (v1: Vec3n, v2: Vec3n): Vec3n => [
   v1[0] + v2[0],
-  v2[1] + v2[1],
-  v2[2] + v2[2],
+  v1[1] + v2[1],
+  v1[2] + v2[2],
 ];
 
 /**
@@ -49,8 +49,8 @@ export const add = (v1: Vec3n, v2: Vec3n): Vec3n => [
  */
 export const sub = (v1: Vec3n, v2: Vec3n): Vec3n => [
   v1[0] - v2[0],
-  v2[1] - v2[1],
-  v2[2] - v2[2],
+  v1[1] - v2[1],
+  v1[2] - v2[2],
 ];
 
 /**
@@ -59,8 +59,8 @@ export const sub = (v1: Vec3n, v2: Vec3n): Vec3n => [
  */
 export const mul = (v1: Vec3n, v2: Vec3n): Vec3n => [
   v1[0] * v2[0],
-  v2[1] * v2[1],
-  v2[2] * v2[2],
+  v1[1] * v2[1],
+  v1[2] * v2[2],
 ];
 
 /**
@@ -69,8 +69,8 @@ export const mul = (v1: Vec3n, v2: Vec3n): Vec3n => [
  */
 export const div = (v1: Vec3n, v2: Vec3n): Vec3n => [
   v1[0] / v2[0],
-  v2[1] / v2[1],
-  v2[2] / v2[2],
+  v1[1] / v2[1],
+  v1[2] / v2[2],
 ];
 
 // -------------------------------------------------------------------------------------

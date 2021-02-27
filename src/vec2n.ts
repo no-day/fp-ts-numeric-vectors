@@ -35,7 +35,7 @@ export const vec2n = (x1: number, x2: number): Vec2n => [x1, x2];
  */
 export const add = (v1: Vec2n, v2: Vec2n): Vec2n => [
   v1[0] + v2[0],
-  v2[1] + v2[1],
+  v1[1] + v2[1],
 ];
 
 /**
@@ -44,7 +44,7 @@ export const add = (v1: Vec2n, v2: Vec2n): Vec2n => [
  */
 export const sub = (v1: Vec2n, v2: Vec2n): Vec2n => [
   v1[0] - v2[0],
-  v2[1] - v2[1],
+  v1[1] - v2[1],
 ];
 
 /**
@@ -53,7 +53,7 @@ export const sub = (v1: Vec2n, v2: Vec2n): Vec2n => [
  */
 export const mul = (v1: Vec2n, v2: Vec2n): Vec2n => [
   v1[0] * v2[0],
-  v2[1] * v2[1],
+  v1[1] * v2[1],
 ];
 
 /**
@@ -62,7 +62,7 @@ export const mul = (v1: Vec2n, v2: Vec2n): Vec2n => [
  */
 export const div = (v1: Vec2n, v2: Vec2n): Vec2n => [
   v1[0] / v2[0],
-  v2[1] / v2[1],
+  v1[1] / v2[1],
 ];
 
 // -------------------------------------------------------------------------------------
