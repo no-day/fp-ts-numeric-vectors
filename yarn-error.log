@@ -18,9 +18,9 @@ Trace:
 
 npm manifest: 
   {
-    "name": "ts-numeric-vectorss",
+    "name": "fp-ts-numeric-vectorss",
     "version": "0.1.0-rc.1",
-    "homepage": "https://github.com/no-day/ts-numeric-vectorss",
+    "homepage": "https://github.com/no-day/fp-ts-numeric-vectorss",
     "main": "dist/index.js",
     "module": "src/index.ts",
     "types": "dist/index.d.ts",

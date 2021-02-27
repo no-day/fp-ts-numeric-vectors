@@ -1,7 +1,7 @@
 {
-  "name": "ts-numeric-vectors",
+  "name": "fp-ts-numeric-vectors",
   "version": "0.1.0-rc.1",
-  "homepage": "https://github.com/no-day/ts-numeric-vectors",
+  "homepage": "https://github.com/no-day/fp-ts-numeric-vectors",
   "license": "MIT",
   "devDependencies": {
     "docs-ts": "^0.6.4",

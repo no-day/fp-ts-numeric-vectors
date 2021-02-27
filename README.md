@@ -1,23 +1,23 @@
-# ts-numeric-vectors
+# fp-ts-numeric-vectors
 
-Immutable numeric vectors.
+Immutable numeric vectors for [fp-ts](https://github.com/gcanti/fp-ts).
 
 ## Install
 
 ```bash
-npm install git+https://github.com/no-day/ts-numeric-vectors
+npm install git+https://github.com/no-day/fp-ts-numeric-vectors
 ```
 
 ## Docs
 
-[API](https://no-day.github.io/ts-numeric-vectors/docs/modules)
+[API](https://no-day.github.io/fp-ts-numeric-vectors/docs/modules)
 
 ## Examples
 
 ### Simple
 
 ```ts
-import { add, sub, div, Vec2n } from "ts-numeric-vectors/vec2n";
+import { add, sub, div, Vec2n } from "fp-ts-numeric-vectors/vec2n";
 import { pipe } from "fp-ts/function";
 
 const result: Vec2n = pipe(
