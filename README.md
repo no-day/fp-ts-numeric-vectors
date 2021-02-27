@@ -5,7 +5,7 @@ Immutable numeric vectors for [fp-ts](https://github.com/gcanti/fp-ts).
 ## Install
 
 ```bash
-npm install git+https://github.com/no-day/fp-ts-numeric-vectors
+npm install fp-ts @no-day/fp-ts-numeric-vectors
 ```
 
 ## Docs
