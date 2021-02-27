@@ -10,7 +10,7 @@ npm install git+https://github.com/no-day/ts-numeric-vectors
 
 ## Docs
 
-[API](https://no-day.github.io/ts-numeric-vectors/modules)
+[API](https://no-day.github.io/ts-numeric-vectors/docs/modules)
 
 ## Examples
 
