@@ -1,6 +1,6 @@
 {
   "name": "@no-day/fp-ts-numeric-vectors",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "homepage": "https://github.com/no-day/fp-ts-numeric-vectors",
   "license": "MIT",
   "devDependencies": {
