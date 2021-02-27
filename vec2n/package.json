@@ -1,0 +1,6 @@
+{
+  "main": "../dist/vec2n/index.js",
+  "module": "src/index.ts",
+  "typings": "../dist/vec2n/index.d.ts",
+  "sideEffects": false
+}
