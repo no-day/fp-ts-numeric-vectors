@@ -1,6 +1,6 @@
 {
   "name": "@no-day/fp-ts-numeric-vectors",
-  "version": "0.1.0-rc.3",
+  "version": "0.1.0-rc.4",
   "homepage": "https://github.com/no-day/fp-ts-numeric-vectors",
   "main": "dist/index.js",
   "module": "src/index.ts",
