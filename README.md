@@ -1,23 +1,23 @@
-# fp-vectors-math
+# ts-numeric-vectors
 
 Immutable, functional numeric vectors.
 
 ## Install
 
 ```bash
-npm install fp-ts git+https://github.com/no-day/ts-vectors-math
+npm install git+https://github.com/no-day/ts-numeric-vectors
 ```
 
 ## Docs
 
-[API](https://no-day.github.io/ts-vectors-math/modules)
+[API](https://no-day.github.io/ts-numeric-vectors/modules)
 
 ## Examples
 
 ### Simple
 
 ```ts
-import { add, sub, div, Vec2n } from "ts-vector-maths/vec2n";
+import { add, sub, div, Vec2n } from "ts-numeric-vectors/vec2n";
 import { pipe } from "fp-ts/function";
 
 const result: Vec2n = pipe(

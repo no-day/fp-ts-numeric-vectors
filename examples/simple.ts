@@ -1,4 +1,4 @@
-import { add, sub, div, Vec2n } from "ts-vector-maths/vec2n";
+import { add, sub, div, Vec2n } from "ts-numeric-vectorss/vec2n";
 import { pipe } from "fp-ts/function";
 
 const result: Vec2n = pipe(
