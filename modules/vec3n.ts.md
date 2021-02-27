@@ -1,10 +1,10 @@
 ---
-title: vec2n/index.ts
-nav_order: 1
+title: vec3n.ts
+nav_order: 2
 parent: Modules
 ---
 
-## index overview
+## vec3n overview
 
 Added in v0.1.0
 
@@ -18,9 +18,9 @@ Added in v0.1.0
   - [mul](#mul)
   - [sub](#sub)
 - [constructors](#constructors)
-  - [vec2n](#vec2n)
+  - [vec3n](#vec3n)
 - [model](#model)
-  - [Vec2n (type alias)](#vec2n-type-alias)
+  - [Vec3n (type alias)](#vec3n-type-alias)
 
 ---
 
@@ -31,7 +31,7 @@ Added in v0.1.0
 **Signature**
 
 ```ts
-export declare const add: (v1: Vec2n, v2: Vec2n) => Vec2n
+export declare const add: (v1: Vec3n, v2: Vec3n) => Vec3n
 ```
 
 Added in v0.1.0
@@ -41,7 +41,7 @@ Added in v0.1.0
 **Signature**
 
 ```ts
-export declare const div: (v1: Vec2n, v2: Vec2n) => Vec2n
+export declare const div: (v1: Vec3n, v2: Vec3n) => Vec3n
 ```
 
 Added in v0.1.0
@@ -51,7 +51,7 @@ Added in v0.1.0
 **Signature**
 
 ```ts
-export declare const mul: (v1: Vec2n, v2: Vec2n) => Vec2n
+export declare const mul: (v1: Vec3n, v2: Vec3n) => Vec3n
 ```
 
 Added in v0.1.0
@@ -61,31 +61,31 @@ Added in v0.1.0
 **Signature**
 
 ```ts
-export declare const sub: (v1: Vec2n, v2: Vec2n) => Vec2n
+export declare const sub: (v1: Vec3n, v2: Vec3n) => Vec3n
 ```
 
 Added in v0.1.0
 
 # constructors
 
-## vec2n
+## vec3n
 
 **Signature**
 
 ```ts
-export declare const vec2n: (x1: number, x2: number) => Vec2n
+export declare const vec3n: (x1: number, x2: number, x3: number) => Vec3n
 ```
 
 Added in v0.1.0
 
 # model
 
-## Vec2n (type alias)
+## Vec3n (type alias)
 
 **Signature**
 
 ```ts
-export type Vec2n = [number, number]
+export type Vec3n = [number, number, number]
 ```
 
 Added in v0.1.0
